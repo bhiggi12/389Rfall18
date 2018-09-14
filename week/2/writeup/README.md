@@ -98,7 +98,8 @@ Digital acknowledgement of honor pledge: *Brianna Higgins*
     ![](images/kalisearchingforflag.png)
 
   * Using the information from the ticket found on the Instagram page, I opened the file named "AAC27670.txt"
- ![](images/part2flag.png)
+ ![flag: CMSC389R-{c0rn3rstone-air-27670}](images/part2flag.png)
+
 
 
 __Additional Searching on the Admin Server:__   
