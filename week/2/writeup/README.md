@@ -14,9 +14,9 @@ Digital acknowledgement of honor pledge: *Brianna Higgins*
 1. Real Name: Fred Krueger  
 
 2. Personal Information about Fred Krueger:   
-  * Started by searching 'kruegster1990' using Google:
+  - Started by searching 'kruegster1990' using Google:
     ![](images/googleSearchKruegster1990.png)
-  * From Twitter (found through [STWITY](https://stwity.com/umdcsec/following)):
+  - From Twitter (found through [STWITY](https://stwity.com/umdcsec/following)):
     * Handle: [@kruegster1990](https://twitter.com/@kruegster1990)    
     * [Following UMD Cybersecurity on Twitter](https://stwity.com/umdcsec/following)    
     * Uses Twitter Web Client   
@@ -25,7 +25,7 @@ Digital acknowledgement of honor pledge: *Brianna Higgins*
     * Website: [cornerstoneairlines.co](cornerstoneairlines.co)   
   * From Website:
     * Owner of Cornerstone Airlines
-    * Email: kruegster1990@tutanota.com
+    * Email: kruegster@tutanota.com
       * Not compromised in a data breach, as confirmed on haveibeenpwned.com
   * From [knowem.com](knowem.com) ([checkusernames.com](checkusernames.com) was not working when I tried it)   
     * Instagram: [@kruegster1990](https://www.instagram.com/kruegster1990/)   
