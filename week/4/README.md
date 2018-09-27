@@ -17,14 +17,14 @@ However, there are rumors that Freds's new service is vulnerable to a Command In
 
 `nc cornerstoneairlines.co 45`
 
-For full credit, write up (step-by-step) how you got the flag and what Mark should do to protect from this vulnerability.
+For full credit, write up (step-by-step) how you got the flag and what Fred should do to protect from this vulnerability.
 
 You will earn full credit for answering these questions:
 
-The right flag
-Showing what input you used to obtain the flag.
-Describing your thought process.
-Any suggested precautions Fred could implement to prevent this vulnerability (hint: can you find the script that Fred uses to check the uptime?)
+* The right flag
+* Showing what input you used to obtain the flag.
+* Describing your thought process.
+* Any suggested precautions Fred could implement to prevent this vulnerability (hint: can you find the script that Fred uses to check the uptime?)
 
 ### Part 2
 
@@ -32,16 +32,19 @@ Using the provided stub code, implement an interactive shell that leverages the 
 
 You want to be able to conduct the following actions (by calling their respective commands) in this shell:
 
-1) bash                                Drop into bash and gracefully exit
-2) pull <remote-path> <local-path>     Download files
-3) help                                Shows this help menu
-4) quit                                Quit the shell
+1) `shell`                               Drop into an interactive shell and allow users to gracefully `exit`
+2) `pull <remote-path> <local-path>`     Download files
+3) `help`                                Shows this help menu
+4) `quit`                                Quit the shell
 
 If any malformed input occurs, be sure to show this usage function.
 
 Note: If you choose to write your own program in another language, please include instructions on how to execute your program including what version of the language you are using. Please add this detail to a README.txt or README.md file. You will NOT receive credit if the TAs cannot run your program.
 
 Note: If you are stuck on this part of the assignment, please let us know. The facilitator staff is open to releasing hints, though we reserve the right to deny releasing specific hints if we deem it appropriate.
+
+Note: Here's a [screenshot](shellimg.png) of what we roughly expect. I'll post a simple "public test" for which you will be graded on. Kindly bear with us here, we're trying something new :)
+
 
 ### Format
 
@@ -62,4 +65,3 @@ Observe that part 2 is the same as the second part of part 1: doing it first mig
 thoughts.
 
 Good luck!
-
