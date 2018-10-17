@@ -1,12 +1,12 @@
 Writeup 5 - Binaries I
 ======
 
-Name: *PUT YOUR NAME HERE*
-Section: *PUT YOUR SECTION HERE*
+Name: *Brianna Higgins*
+Section: *0201*
 
 I pledge on my honor that I havie not given or received any unauthorized assistance on this assignment or examination.
 
-Digital acknowledgement of honor pledge: *PUT YOUR NAME HERE*
+Digital acknowledgement of honor pledge: *Brianna Higgins*
 
 ## Assignment 5 Writeup
 
