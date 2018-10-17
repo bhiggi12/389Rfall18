@@ -1,0 +1,54 @@
+function sym.main () {
+    //  1 basic blocks
+
+    loc_0x784:
+
+  push rbp
+  rbp = rsp
+  rsp -= 0x20                   //"/tmp/.stego"
+  byte [local_14h] = 0x2f       //'/'
+  byte [local_13h] = 0x74       //'t'
+  byte [local_12h] = 0x6d       //'m'
+  byte [local_11h] = 0x70       //'p'
+  byte [local_10h] = 0x2f       //'/'
+  byte [local_fh] = 0x2e        //'.'
+  byte [local_eh] = 0x73        //'s'
+  byte [local_dh] = 0x74        //'t'
+  byte [local_ch] = 0x65        //'e'
+  byte [local_bh] = 0x67        //'g'
+  byte [local_ah] = 0x6f        //'o'
+  byte [local_9h] = 0
+  rax = qword [local_14h]
+  qword [filename] = rax
+  eax = dword [local_ch]
+  dword [local_18h] = eax
+  edx = 0x2677                  //'w&'
+  esi = 0
+  rdi = obj.challenge           //0x201060
+  sym.reverse_array ()
+  rax = [filename]              //"/tmp/.stego"
+  rsi = [0x000008c4]            //"wb" ; const char *mode
+  rdi = rax                     //const char *filename ; "/tmp/.stego"
+                                                 
+  /file*fopen(const char * filename : 0x00177fd8 = /tmp/.stego, const char * mode : 0x000008c4 = wb)
+  qword [stream] = rax
+  rax = qword [stream]          //"/tmp/.stego"
+  rcx = rax                     //FILE *stream ; "/tmp/.stego"
+  edx = 0x2677                  //'w&' ; size_t nitems
+  esi = 1                       //size_t size
+  rdi = obj.challenge           //0x201060 ; const void *ptr
+                                                   
+  size_t fwrite(const void * ptr : 0x00201060 = (qword)0x02800a002803ffd9, size_t size : 0x00000001 = 0x02464c45, size_t nitems : 0x00002677 = 0xffffffff, FILE *: unk_size_format)
+  rax = qword [stream]          //"/tmp/.stego"
+  rdi = rax                     //FILE *stream ; "/tmp/.stego"
+                                                   
+  int fclose(FILE *: unk_size_format)
+  rdi = "Where is your flag?"g //0x8c7 ; str.Where_is_your_flag ; const char *s
+                                                 
+  int puts(const char * s : 0x000008c7 = Where is your flag?)
+  eax = 0
+                                //rsp ; rsp
+  return 0
+(break)
+
+}
