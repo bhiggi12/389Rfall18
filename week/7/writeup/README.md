@@ -105,7 +105,7 @@ To understand what this file was doing, I decided to look at the underlying code
 4. Closes `/temp/.stego`   
 5. Outputs `Where is your flag?`   
 
-Code: [Psuedocode Generated with Cutter](code/binary_psuedocode.txt)
+Code: [Psuedocode Generated with Cutter](code/binary_pseudocode.txt)
 
 After learning the behavior of this file and having already executed the file, I checked the `tmp` folder and found the `.stego` file.  (`ls -a` was used, since the leading `.` means the file is hidden.)
 ```
