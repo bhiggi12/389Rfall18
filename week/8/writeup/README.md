@@ -15,11 +15,12 @@ Digital acknowledgement of honor pledge: *Brianna Higgins*
   * csec.umd.edu (packet: 138-141)  [Screenshot from Wireshark ](images/wireshark_traceroute_csec.png)  
   * google.com (packets: 502-505)   
 
-  Determined using the tutorial from [Wikiversity's Wireshark/ICMP Trace](https://en.wikiversity.org/wiki/Wireshark/ICMP_Trace) and looking for a similar pattern to packets in [traceroute_example.pcap](code/traceroute_example.pcap)
-    *
+  *Determined using the tutorial from [Wikiversity's Wireshark/ICMP Trace](https://en.wikiversity.org/wiki/Wireshark/ICMP_Trace) and looking for a similar pattern to packets in [traceroute_example.pcap](code/traceroute_example.pcap)*
+
 
 2. The hackers use the names `laz0rh4x` and `c0uchpot4doz`.  (Found in the [Chatroom Text](chatroom sessions/))
-  * Found this chatroom by scrolling through the packets, viewing the ASCII text in the hex viewer at the bottom, and finding "please enter a username:" and did a follow->TCP Stream
+  * Found this chatroom by scrolling through the packets, viewing the ASCII text in the hex viewer at the bottom, and finding "please enter a username:" and did a follow->TCP Stream   
+
 
 3. The hacker, `laz0rh4x`, is using IP 104.248.224.85 and connecting from DigitalOcean, US, NYC.   
 The hacker, `c0uchpot4dox`, is using IP 206.189.113.189 and connecting from DigitalOcean, US, NYC.    
@@ -28,8 +29,8 @@ The hacker, `c0uchpot4dox`, is using IP 206.189.113.189 and connecting from Digi
 4. The hackers used `Port 2749` to communicate on the server.   
   (Found in the info field of packets in Wireshark)
 
-5. They mentioned their plans in the chatroom, saying it is set for "tomorrow at 1500" (The date of the original session was 24 October 2018 around 2245 EDT, so the plans would have happened on 25 October 2018).
-Chatroom sessions can be found: [c0uchpot4dox](chatsessions/chatroom_session_c0c0uchpot4dox.txt) and [laz0rh4x](chatsessions/chatroom_session_laz0rh4x.txt)
+5. They mentioned their plans in the chatroom, saying it is set for "tomorrow at 1500" (The date of the original session was 24 October 2018 around 2245 EDT, so the plans would have happened on 25 October 2018).   
+Chatroom sessions can be found: [c0uchpot4dox](chatsessions/chatroom_session_c0c0uchpot4dox.txt) and [laz0rh4x](chatsessions/chatroom_session_laz0rh4x.txt)   
 
 6. They sent a file via google drive: [https://drive.google.com/file/d/1McOX5WjeVHNLyTBNXqbOde7l8SAQ3DoI/view?usp=sharing](https://drive.google.com/file/d/1McOX5WjeVHNLyTBNXqbOde7l8SAQ3DoI/view?usp=sharing)
 
